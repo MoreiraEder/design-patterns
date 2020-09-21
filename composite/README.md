@@ -15,6 +15,8 @@ O padrão composite é aplicavel a todos os casos em que seja necessário usar u
 ![](./diagrama-padrao.jpg)
 *Diagrama estrutural do padrão*
 
+
+
 ![](./diagrama-case.jpg)
 *Diagrama do case apresentado*
 
