@@ -13,12 +13,12 @@ O padrão composite é aplicavel a todos os casos em que seja necessário usar u
 
 ### Estrutura
 ![](./diagrama-padrao.jpg)
-*Diagrama estrutural do padrão*
+- *Diagrama estrutural do padrão*
 
 
 
 ![](./diagrama-case.jpg)
-*Diagrama do case apresentado*
+- *Diagrama do case apresentado*
 
 ### Participantes
 - Component: Esta será a "classe molde" para todos os objetos da árvore. Essa classe pode tanto ser uma interface como uma classe abstrata
