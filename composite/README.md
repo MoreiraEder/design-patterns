@@ -12,10 +12,11 @@ Neste cenário os pedidos do cliente podem ser organizados em forma de árvore, 
 O padrão composite é aplicavel a todos os casos em que seja necessário usar uma estrutura de árvore/hierarquia com funcionalidades genéricas por toda a estrutura, como registros gerais, estruturas de arquivos, etc.
 
 ### Estrutura
-![Diagrama estrutural do padrão](./diagrama-padrao.jpg)
 Diagrama estrutural do padrão
-![Diagrama do case apresentado](./diagrama-case.jpg)
+![Diagrama estrutural do padrão](./diagrama-padrao.jpg)
+
 Diagrama do case apresentado
+![Diagrama do case apresentado](./diagrama-case.jpg)
 
 ### Participantes
 Component: Esta será a "classe molde" para todos os objetos da árvore. Essa classe pode tanto ser uma interface como uma classe abstrata
