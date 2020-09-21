@@ -1,5 +1,5 @@
 # Composite Pattern
-### Padrões estruturais
+## Padrões estruturais
 
 Este padrão é usado para estruturar uma árvore com objetos semelhantes, de forma que a árvore fique uniforme e homogênea. O cliente que usará dos atributos de uma estrutura Composite consegue ter acesso a todos os objetos da árvore através de um único objeto.
 
