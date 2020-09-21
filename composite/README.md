@@ -13,7 +13,7 @@ O padrão composite é aplicavel a todos os casos em que seja necessário usar u
 
 ### Estrutura
 Abaixo segue o diagrama do padrão
-(./diagrama-padrao.jpg)
+[filó](./diagrama-padrao.jpg)
 
 ### Participantes
 Component: Esta será a "classe molde" para todos os objetos da árvore. Essa classe pode tanto ser uma interface como uma classe abstrata
