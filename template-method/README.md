@@ -11,7 +11,8 @@ A implementação do algoritmo de uma cafeteira grande que prepare café e chá.
 Pode ser usado quando o algoritmo pode ser dividido em etapas de forma hierárquica.
 
 ### Estrutura
-![Diagrama estrutural do padrão](./diagrama-padrao.jpg?raw=true "Diagrama estrutural do padrão")
+![Diagrama estrutural do padrão](./diagrama-padrao.jpg)
+- *Diagrama estrutural do padrão*
 
 
 ### Participantes
