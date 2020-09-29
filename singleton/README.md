@@ -25,4 +25,4 @@ Pode ser usado em qualquer caso em que o construtor de uma classe precise ser pr
 - Classes clientes: As classes que fazem uso do objeto instanciado
 
 ### Exemplo
-[Aqui](./exemplo) segue o código de uma objeto *Singleton* que constrola a exibição de frases em um painel
+[Aqui](./exemplo) segue o código de uma objeto *Singleton* que constrola a exibição de frases em um painel. Repare que, nesse exemplo, as chamadas de instâncias realizadas duas vezes, porém as instâncias permanecem as mesmas.
