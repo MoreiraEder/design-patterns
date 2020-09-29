@@ -24,6 +24,5 @@ Pode ser usado em qualquer caso em que o construtor de uma classe precise ser pr
 - Classe Singleton: A única classe que implementa o método, que possui o construtor protegido e o método 'getInstance' implementado
 - Classes clientes: As classes que fazem uso do objeto instanciado
 
-### Exemplos
-Abaixo segue o código de uma objeto *Singleton* que constrola a exibição de frases em um painel
-[Código de exemplo](./exemplo)
+### Exemplo
+[Aqui](./exemplo) segue o código de uma objeto *Singleton* que constrola a exibição de frases em um painel
