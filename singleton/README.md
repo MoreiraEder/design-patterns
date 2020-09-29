@@ -17,11 +17,11 @@ Pode ser usado em qualquer caso em que o construtor de uma classe precise ser pr
 
 ### Variações
 - Eager: Faz com que o objeto *Singleton* seja instanciado assim que a aplicação é carregada. Pode parar a aplicação caso a criação da instância dispare alguma excessão
-- Static Block: Assim como o Eager, faz com que o objeto seja inicializado assim que a aplicação é carregada, porém utilizando de uma estrutura 'try .. catch' para tratar alguma possível excessão na criação do objeto
-- Lazy: Faz com que o objeto seja criado apenas quando uma instância seja solicitada através do método 'getInstance'
+- Static Block: Assim como o Eager, faz com que o objeto seja inicializado assim que a aplicação é carregada, porém utilizando de uma estrutura `try .. catch` para tratar alguma possível excessão na criação do objeto
+- Lazy: Faz com que o objeto seja criado apenas quando uma instância seja solicitada através do método `getInstance`
 
 ### Participantes
-- Classe Singleton: A única classe que implementa o método, que possui o construtor protegido e o método 'getInstance' implementado
+- Classe Singleton: A única classe que implementa o método, que possui o construtor protegido e o método `getInstance` implementado
 - Classes clientes: As classes que fazem uso do objeto instanciado
 
 ### Exemplo
