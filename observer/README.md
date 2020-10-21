@@ -6,7 +6,7 @@
 Este padrão define uma forma de comunicação que permite que objetos sejam notificados caso haja alguma mudança de estado relevante.
 
 ### Motivação
-O motivo principal da existência desse padrão é pela dificuldade de se integrar sistemas geralmente legados ou bibliotecas a um outro sistema. Nesses casos onde fica inviável modificar os sistemas para que eles conversem - seja pela complexidade, ou por ser inpossível obter o código fonte - é criado um adaptador que funciona como intermediário fazendo a conversão da comunicação entre eles.
+Imagine que uma loja online venda produtos muito bons e foi lançado um novo smartphone cheio de funções incríveis e desnecessárias que em breve estará disponível para venda. Esta loja possui também diversos clientes que tem certo problema com ansiedade e precisam ser os primeiros a comprar o novo celular. Até que o novo celular fique disponível a venda na loja a marioria das visitas dos clientes ao site será totalmente em vão. O padrão observer se encaixa perfeitamente como solução para este cenário. Para sua implementação, poderia ser criada uma lista de assinantes, os quais desejam ser avisados assim que o celular estiver disponível. Assim que o novo aparelho entrar no estoque e puder ser vendido todos os clientes que estão com assinatura registrada na loja seriam notificados.
 
 ### Aplicabilidade
 Em qualquer caso em que a mudaça de estado de um objeto requer que algo seja feito em outros objetos e, nós não sabemos quem são estes objetos.
@@ -21,4 +21,4 @@ Em qualquer caso em que a mudaça de estado de um objeto requer que algo seja fe
 - Observer_3, Observer_3, Observer_3, etc.: São as classes concretas que observam o estado da classe *Subject*
 
 ### Exemplo
-[Aqui](./exemplo) segue o código de um incrível sistema de radar que dispõe as informações apenas em milhas e o software do fiscal que faz o monitoramento opera apenas em kilômentos por hora. Porém como não queremos alterar nenhum dos dois sistemas, criaremos um adaptador que fará a devida conversão e interligação entre eles.
+[Aqui](./exemplo) segue.
