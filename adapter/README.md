@@ -33,8 +33,9 @@ No adaptador de objetos temos os seguintes:
 
 Já no adaptador de classe, temos:
 - Service: O recurso da qual precisa ser adaptado
-- 
-- Client: Quem usará o adaptador
+- Existing class: Classe que será usada pelo cliente para comunicação com o adaptador
+- Adapter: Classe que herda de *Existing class* e *Service* e faz toda a adaptação
+- Client: Quem precisa usar recursos de *Service*
 
 ### Exemplo
-[Aqui](./exemplo) segue o código de uma objeto *Singleton* que constrola a exibição de frases em um painel. Repare que, nesse exemplo, as chamadas de instâncias realizadas duas vezes, porém as instâncias permanecem as mesmas.
+[Aqui](./exemplo) segue o código de um incrível sistema de radar que dispõe as informações apenas em milhas e o software do fiscal que faz o monitoramento opera apenas em kilômentos por hora. Porém como não queremos alterar nenhum dos dois sistemas, criaremos um adaptador que fará a devida conversão e interligação entre eles.
