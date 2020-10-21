@@ -1,0 +1,1 @@
+Fazer o padrão adapter
