@@ -21,4 +21,4 @@ Em qualquer caso em que a mudaça de estado de um objeto requer que algo seja fe
 - Observer_3, Observer_3, Observer_3, etc.: São as classes concretas que observam o estado da classe *Subject*
 
 ### Exemplo
-[Aqui](./exemplo) segue.
+[Aqui](./exemplo) segue um exemplo do uso do observer de maneira semelhante a descrição de *Motivação*: há uma suposta loja online onde há uma lista de assinantes que aguardam qualquer celular novo que entre no estoque da loja. Assim que um novo celular entra, os clientes são notificados e realizam a compra.
