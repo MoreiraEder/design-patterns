@@ -22,4 +22,4 @@ Imagine que em uma aplicação qualquer, você precise implementar um histórico
 - Caretaker: este é o responsável por manter o histórico dos mementos para futura restauração. Ele mantém salvo os estados da classe *Originator*
 
 ### Exemplo
-[Aqui](./exemplo) segue um exemplo .
+[Neste link](./exemplo) segue um exemplo de um editor de texto que salva seu estado atual para uma possível restauração.
