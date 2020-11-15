@@ -1,4 +1,4 @@
-# Stare
+# State
 ## Padrão comportamental
 
 ### Intenção
