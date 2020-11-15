@@ -3,6 +3,8 @@
 
 ### Intenção
 Com esse padrão, criamos uma máquina de estados, onde dependendo do estado em que se encontra nosso lindo objeto, ele terá comportamentos diferentes.
+
+
 ![Analogia do funcionamento do padrão](./analogia-padrao.jpg)
 - *Analogia do funcionamento do padrão. Fonte: <https://refactoring.guru/pt-br/design-patterns/state>*
 
