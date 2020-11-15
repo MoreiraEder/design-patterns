@@ -1,9 +1,8 @@
-strategy
-# Template Method Pattern
-## Padrão comportamental
+# Strategy/Policy
+## Padrão Comportamental
 
 ### Intenção
-O objetivo do *Template Method* é estruturar um código que possui algoritmos que podem ser divididos em partes de forma hierárquica. Dessa forma pode-se ter uma classe mãe com toda a parte generalizada do algoritomo e as partes mais especializadas podem ser implementadas nas classes filhas.
+O.
 
 ### Motivação
 A implementação do algoritmo de uma cafeteira grande que prepare café e chá. Várias tarefas são comuns entre preparar ambas as bebidas, mas há algumas particularidades. Dessa forma, poderia haver uma super classe que contenha a implementação de todos os métodos genéricos e os métodos especializados ficariam nas classes filhas.
