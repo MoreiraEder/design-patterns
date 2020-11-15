@@ -21,7 +21,10 @@ Imagine que tenhamos em um sistema de entregas um objeto que representasse um pa
 
 
 ### Participantes
-- Classe abstrata: Contendo todos as etapas genéricas para execução do algoritmo
-- Classes concretas: Que fazem uso do código genérico da classe abstrata, podendo altera-los e especializa-los conforme a necessidade
+- Context: Este é o intermediador entre a lógica dos estados e o cliente. Aqui o *Context* armazena um objeto do tipo *State*, o qual representa o estado atual do objeto
+- State: Esta é a interface responsável por definir a encapsulação dos estados possíveis
+- ConcreteStates: São as implementações concretas dos estados
+- Client: O fulano que usará o nosso lindo objeto com estado bem estruturado
 
-[Código de exemplo](./exemplo)
+### Exemplo
+[Aqui nesse exemplo](./exemplo) temos um objeto "ar-condicionado" implementado com o padrão *State*. Porém ele é um aparelho meio diferente dos outros, e só possúi três modos possíveis e de destaca dos aparelhos convencionais. Ele possui os estados **ventilar**, **esfriar** e **esquentar**. Não há como definir qualquer estado intermediário entre eles.
