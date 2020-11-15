@@ -1,9 +1,11 @@
-this is a readme for state
-# Template Method Pattern
+# Stare
 ## Padrão comportamental
 
 ### Intenção
-O objetivo do *Template Method* é estruturar um código que possui algoritmos que podem ser divididos em partes de forma hierárquica. Dessa forma pode-se ter uma classe mãe com toda a parte generalizada do algoritomo e as partes mais especializadas podem ser implementadas nas classes filhas.
+Com esse padrão, criamos uma máquina de estados, onde dependendo do estado em que se encontra nosso lindo objeto, ele terá comportamentos diferentes - é quase como se ele se comportasse como outro.
+![Analogia do funcionamento do padrão](./analogia-padrao.jpg)
+- *Analogia do funcionamento do padrão. Fonte: <https://refactoring.guru/pt-br/design-patterns/state>*
+
 
 ### Motivação
 A implementação do algoritmo de uma cafeteira grande que prepare café e chá. Várias tarefas são comuns entre preparar ambas as bebidas, mas há algumas particularidades. Dessa forma, poderia haver uma super classe que contenha a implementação de todos os métodos genéricos e os métodos especializados ficariam nas classes filhas.
