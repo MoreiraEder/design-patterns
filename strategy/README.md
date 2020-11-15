@@ -19,7 +19,17 @@ Imagine que você tenha um código que precise executar algorimos diferentes par
 
 
 ### Participantes
-- Classe abstrata: Contendo todos as etapas genéricas para execução do algoritmo
-- Classes concretas: Que fazem uso do código genérico da classe abstrata, podendo altera-los e especializa-los conforme a necessidade
+- Context: Este usa e mantém uma referência de algum objeto Strategy que será usada pelos clientes
+- Strategy: Essa é a interface para comum para uso dos algoritmos
+- ConcreteStrategies: Aqui é onde se encontra os algorimos especializados para uso no código
+- Client: Este é o dito cujo que fará uso de novo belo código
 
-[Código de exemplo](./exemplo)
+### Exemplo
+Aqui [neste link](./exemplo) encontra-se um exemplo de código usado por um banco qualquer.
+Nesse código os clientes podem fazer empréstimos, que são diferenciados caso o cliente seja um bom pagador, ou um mau pagador.
+Nesse exeplo os participantes do padrão são definidos como.
+
+- Main - Client
+- Pagador - Strategy
+- Emprestimo - Context
+- PagadorBom, PagadorMeiaBoca e PagadorRuim - ConcreteStrategies
