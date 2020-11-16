@@ -27,4 +27,4 @@ Imagine que tenhamos em um sistema de entregas um objeto que representasse um pa
 - Client: O fulano que usará o nosso lindo objeto com estado bem estruturado
 
 ### Exemplo
-[Aqui nesse exemplo](./exemplo) temos um objeto "ar-condicionado" implementado com o padrão *State*. Porém ele é um aparelho meio diferente dos outros, e só possúi três modos possíveis e de destaca dos aparelhos convencionais. Ele possui os estados **ventilar**, **esfriar** e **esquentar**. Não há como definir qualquer estado intermediário entre eles.
+[Aqui nesse exemplo](./exemplo) temos um objeto "ar-condicionado" implementado com o padrão *State*. Porém ele é um aparelho meio diferente dos outros, e só possúi três modos possíveis e se destaca dos aparelhos convencionais. Ele possui os estados **ventilar**, **esfriar** e **esquentar**. Não há como definir qualquer estado intermediário entre eles.
