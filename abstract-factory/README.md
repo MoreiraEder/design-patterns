@@ -11,7 +11,7 @@ Imagine que exista em nosso código a criação de mesas e cadeiras. Até aí tu
 
 ### Aplicabilidade
 - Quando houver no sistema a representação de várias famílias de produtos
-- 
+- Ao criar bibliotecas de código onde se deseja esconder a implementação
 
 ### Estrutura
 ![Diagrama do padrão](./diagrama-padrao.jpg)
@@ -25,4 +25,4 @@ Imagine que exista em nosso código a criação de mesas e cadeiras. Até aí tu
 - ProductA1, ProductA2, ProductB1, ProductB2: são os produtos finais, que derivam de famílias diferentes
 
 ### Exemplo
-[Neste link](./exemplo) segue um exemplo de implementação salva seu estado atual de uma *String* para uma possível restauração.
+[Neste link](./exemplo) segue um ex.
