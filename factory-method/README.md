@@ -18,7 +18,7 @@ Um caso em que poderia ser citado o uso desse padrão é em algum sistema de piz
 - *Diagrama do padrão*
 
 ### Participantes
-- Client: quem usa nossa linda fábrica abstrata
+- Product: declara a interface que é comum em todos os tipos de objeto relacionados
 - AbstractFactory: essa é a interface que representa uma fábrica concreta
 - ConcreteFactory1, - ConcreteFactory2: são as fábricas responsáveis por criar diferentes famílias de produtos
 - AbstractProductA, - AbstractProductB: são as interfaces que representam os produtos
