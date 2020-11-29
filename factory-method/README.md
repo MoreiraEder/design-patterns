@@ -19,10 +19,9 @@ Um caso em que poderia ser citado o uso desse padrão é em algum sistema de piz
 
 ### Participantes
 - Product: declara a interface que é comum em todos os tipos de objeto relacionados
-- AbstractFactory: essa é a interface que representa uma fábrica concreta
-- ConcreteFactory1, - ConcreteFactory2: são as fábricas responsáveis por criar diferentes famílias de produtos
-- AbstractProductA, - AbstractProductB: são as interfaces que representam os produtos
-- ProductA1, ProductA2, ProductB1, ProductB2: são os produtos finais, que derivam de famílias diferentes
+- ConcreteProductA, ConcreteProductB: são as implementações de *Product* 
+- Creator: essa é a classe criadora, que gera as instâncias dos produtos concretos
+- ConcreteCreatorA, ConcreteCreatorB: são classes que heram de *Creator* e são responsáveis por gerar instâncias diferentes de prdutos
 
 ### Exemplo
-[Neste link](./exemplo) segue um ex.
+[Neste link](./exemplo) segue um exemplo da implementação do exemplo da nossa motivação, que cria um pequeno código gerador de deliciosas pizzas.
