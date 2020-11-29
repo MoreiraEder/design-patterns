@@ -25,4 +25,4 @@ Imagine que exista em nosso código a criação de mesas e cadeiras. Até aí tu
 - ProductA1, ProductA2, ProductB1, ProductB2: são os produtos finais, que derivam de famílias diferentes
 
 ### Exemplo
-[Neste link](./exemplo) segue um ex.
+[Neste link](./exemplo) segue um exemplo de código para um simples sistema de uma poderosa indústria criadora de microprocessadores, com diversas famílias de produtos.
