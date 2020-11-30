@@ -25,4 +25,4 @@ Imagine que exista em nosso código a criação de mesas e cadeiras. Até aí tu
 - ProductA1, ProductA2, ProductB1, ProductB2: são os produtos finais, que derivam de famílias diferentes
 
 ### Exemplo
-[Neste link](./exemplo) segue um exemplo de código para um simples sistema de uma poderosa indústria criadora de microprocessadores, com diversas famílias de produtos.
+[Neste link](./exemplo) segue um exemplo de código para um simples sistema de uma poderosa indústria criadora de microprocessadores para mobile e desktop. Acontece que há duas faílias de processadores, os *j3* e os *j7*, e abmos são disponíveis para as plataformas mobile e desktop. Porém, mesmo que esses produtos tenham nomes semelhantes há algumas peculiaridades na fabricação de cada modelo dependendo da plataforma, e nesse código é demonstrado como o padrão *Abstract Factory* pode ajudar a dar uma boa organizada no código.
